@@ -17,7 +17,8 @@
 
 int main() 
 { 
-	int len, n;
+	socklen_t len;
+	int n;
 	int sockfd; 
 	char buffer[MAX]; 
 	char msg[MAX]; 
